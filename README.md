@@ -21,7 +21,7 @@ The pipeline integrates **historical sales preprocessing**, **demand forecasting
 
 The demonstration uses **6 SKU–store series**, a **6-week replenishment horizon**, and **16 training demand scenarios**, with a **95% aggregate expected fill-rate target** in the optimization model. Replenishment decisions are made before the demand scenario is realized; inventory and lost-sales outcomes vary by scenario. The model includes **per-SKU ordering limits** and a **warehouse-capacity constraint**.
 
-The financial and operational parameters—including purchasing and holding costs, stockout penalties, initial inventory, warehouse capacity, disposal, and immediate order receipt—are **modeling assumptions**, not observed Walmart operating costs or inventory records.
+The financial and operational parameters, including purchasing and holding costs, stockout penalties, initial inventory, warehouse capacity, disposal, and immediate order receipt, are **modeling assumptions**, not observed Walmart operating costs or inventory records.
 
 ### Holdout Impact
 
